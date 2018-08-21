@@ -54,14 +54,32 @@ body {
 .main-nav___item  a {
   color: #0e4f1f;
   text-decoration: none;
+  font-weight: bold;
+  padding: 3px 0;
+
 }
 
-.main-nav___item a:hover {
-  color: white;
-}
-
+.main-nav___item a:hover,
 .main-nav___item a:active {
   color: white;
+  border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background: red;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: #ff1b68;
+  background: white;
+  border: none; 
+}
+
+.main-nav___item a::after {
+  color: red;
 }
 
 .main-nav___items {
@@ -70,4 +88,9 @@ body {
 
   /*  */removes bullet points ->
   list-style: none;
+}
+
+p::first-letter {
+  color: red;
+  font-size: 20px;
 }
