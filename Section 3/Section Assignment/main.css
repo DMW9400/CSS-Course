@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+
+#div1 {
+  display:inline-block;
+  visibility: hidden;
+  border: solid 5px red;
+  padding: 15px 12px 20px 14px;
+  margin: 20px 10px 5px 12px;
+  height: 300px;
+  width:50%
+}
+#div2 {
+  display:inline-block;
+  border: solid 5px blue;
+  padding: 15px 12px 20px 14px;
+  margin: 20px 10px 5px 12px;
+  height: 20%;
+  width: 20%;
+}
+
+#div2:hover {
+  border: solid 5px yellow; 
+}
