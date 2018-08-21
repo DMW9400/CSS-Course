@@ -25,6 +25,9 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
+.main-nav___item {
+  display: inline-block;
+}
 /* h1 {
     font-family: sans-serif;
 } */
