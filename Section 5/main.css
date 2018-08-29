@@ -23,6 +23,16 @@ body {
     color: white;
     font-family: 'Anton', sans-serif;
 }
+#key-features {
+  background-color: #ff1b68;
+  margin-top: 80px;
+  padding: 16px;
+}
+
+#key-features .section-title {
+  color: white;
+  margin: 32px;
+}
 
 .plan {
   background-color: #d5ffdc;
@@ -88,9 +98,19 @@ body {
 }
 
 .button:focus {
-  outline: none; 
+  outline: none;
 }
 
+.features-list {
+  color: white;
+  font-weight: bold;
+  list-style: none;
+}
+
+.features-list li {
+  display: inline-block;
+  margin: 15px; 
+}
 /* h1 {
     font-family: sans-serif;
 } */
