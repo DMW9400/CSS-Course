@@ -48,6 +48,13 @@ body {
     border-radius: 8px;
 }
 
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  /* this will center the article elements within the div, even though they are not text */
+}
+
 .plan__title {
     color: #0e4f1f;
 }
